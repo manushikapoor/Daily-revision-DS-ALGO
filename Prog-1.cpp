@@ -43,10 +43,11 @@ int main()
             profit=profit+(sell-buy);
             if(i!=l-1){
             for(int k=i+1;k<l;k++){  //finding cost to buy
-                if(a[k+1]>a[k])
+                if(a[k+1]>a[k]){
                 buy=a[k];
               	i=k;   						// continue traversing from the cost you bought
                 break;
+                }
             	}
             }
             
