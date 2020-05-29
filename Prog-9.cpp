@@ -1,4 +1,4 @@
-/* check if a binary tree is full or not */
+/* check if a binary tree is complete or not */
 
 #include <bits/stdc++.h> 
 using namespace std; 
