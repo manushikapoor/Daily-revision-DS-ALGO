@@ -13,6 +13,7 @@ int maxNodeLevel(Node *root)
     int res=0;
     int n=q.size();
     while(true){
+        n=q.size();
         if(q.size()==0)
         break;
         if(max<n){
