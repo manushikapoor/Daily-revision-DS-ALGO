@@ -15,7 +15,7 @@ void diagonalSum(Node* root) {
     calculate(root,res,dis);
     
     map<int,int>::iterator it;
-    for(it=res.begin();it<res.end();it++){
+    for(it=res.begin();it!=res.end();it++){
         cout<<it->second<<" ";
     }
 }
