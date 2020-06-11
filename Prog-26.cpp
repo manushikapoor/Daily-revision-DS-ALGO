@@ -1,6 +1,6 @@
 /* diagonal sum of a binary tree */
 
-void calculate(Node * node,map<int,int> res,dis){
+void calculate(Node * node,map<int,int> res,int dis){
     if(root==NULL)
     return;
     res[dis]=res[dis]+node->data;
