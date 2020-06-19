@@ -7,7 +7,7 @@ int count(struct Node* temp){
         res++;
         temp=temp->next;
     }
-    return res;
+    return res+1;
 }
 int countNodesinLoop(struct Node *head)
 {
